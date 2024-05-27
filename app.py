@@ -6,6 +6,7 @@ from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 from nltk.corpus import stopwords
 import sklearn
+nltk.downlord("punkt")
 
 
 def text_transform(text):

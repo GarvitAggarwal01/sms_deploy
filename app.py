@@ -2,11 +2,11 @@ import streamlit as st
 import pickle
 import string
 import nltk
+nltk.download("punkt")
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 from nltk.corpus import stopwords
 import sklearn
-nltk.download("punkt")
 
 
 def text_transform(text):

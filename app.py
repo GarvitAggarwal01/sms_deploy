@@ -51,7 +51,7 @@ st.set_page_config(page_title="Spam_dectector",page_icon=":envelope:")
 
 st_lottie(lottie_main,height=200)
 
-st.title("SMS Spam Dectector")
+st.title("SMS Spam Dectector :incoming_envelope:")
 
 input_text = st.text_area("enter the message to detect")
 
